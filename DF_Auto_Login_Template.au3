@@ -17,7 +17,7 @@ Local $iTimeout = 0
 
 ;-------------------------------------Let the Auto Logging Begin!!!!
 Call ("SignIn_1")
-Func SignIn_1() ; As Your User name (Placeholder is MstrSMART)
+Func SignIn_1() ; As Your User name (Placeholder is MstrSMART) MstrSMART is not a real account. Thus it needs a real account with real credentials to work
 
 	Global $oIE = _IECreate ("http://fairview.deadfrontier.com/onlinezombiemmo/ExternalLoginReg.php") ;Opens up a new Internet Browser Page
 	Send("{CTRLDOWN}a{CTRLUP}"); TO SELECT ALL TEXT IN TEXT BOX
